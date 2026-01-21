@@ -1,5 +1,6 @@
 
 import React, { useState, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { extractProfileDataFromImage, extractProfileDataFromUrl } from './services/geminiService';
 import { ExtractedData, ExtractionStatus } from './types';
 import DataCard from './components/DataCard';
@@ -178,6 +179,7 @@ const App: React.FC = () => {
           <p className="text-xs uppercase tracking-[0.2em] font-black">Dipak's Model Infrastructure</p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
