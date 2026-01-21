@@ -1,0 +1,5 @@
+{
+  "name": "LinkedIn Insight Extractor",
+  "description": "A sophisticated tool that uses Gemini's multi-modal capabilities to analyze LinkedIn profile screenshots and extract professional data like names, emails, and contact details with high accuracy.",
+  "requestFramePermissions": []
+}
